@@ -267,7 +267,7 @@ main section div.content {
 
 /* line 263, scss/index.scss */
 main section div.price-list {
-  font-size: 72px;
+  font-size: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
