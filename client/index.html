@@ -80,7 +80,20 @@ VK.Widgets.CommunityMessages("vk_community_messages", 166657004, {expandTimeout:
                   pattern="[\+]?\d{0,3}\s?[\(]?\d{2,3}[\)]?\s?\d{2,3}[\-]?\s?\d{2,3}[\-]?\s?\d{2,3}"
                   placeholder="+375 (25) 905-88-35"/>
                 </label>
-              </div>             
+              </div>
+              <div>
+                <label>
+                  Дата: <span class="required" title="Обязательное поле"></span><br />
+                  <input
+                    name="date"
+                    required
+                    type="date"
+                    value="2018-07-22"
+                    min="2018-01-01"
+                    max="2070-12-31"
+                  />
+                </label>
+              </div>
               <div>
                 <label>
                   Время: <span class="required" title="Обязательное поле"></span><br />
