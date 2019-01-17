@@ -83,7 +83,7 @@ VK.Widgets.CommunityMessages("vk_community_messages", 166657004, {expandTimeout:
               </div>
               <div>
                 <label>
-                  Дата: <span class="required" title="Обязательное поле"></span><br />
+                  Дата (приблизительно, согласование с мастером): <span class="required" title="Обязательное поле"></span><br />
                   <input
                     name="date"
                     required
@@ -96,7 +96,7 @@ VK.Widgets.CommunityMessages("vk_community_messages", 166657004, {expandTimeout:
               </div>
               <div>
                 <label>
-                  Время: <span class="required" title="Обязательное поле"></span><br />
+                  Время (приблизительно, согласование с мастером): <span class="required" title="Обязательное поле"></span><br />
                   <select required name="time">
                     <option>8 : 30</option>
                     <option>12 : 00</option>
@@ -107,7 +107,7 @@ VK.Widgets.CommunityMessages("vk_community_messages", 166657004, {expandTimeout:
               </div>
               <div>
                 <label>
-                  Комментарий: <br />
+                  Комментарий (услуга, пожелания и т.д.): <br />
                   <textarea name="comment"></textarea>
                 </label>
               </div>
@@ -134,7 +134,7 @@ VK.Widgets.CommunityMessages("vk_community_messages", 166657004, {expandTimeout:
                   <input required type="checkbox" /> FAQ прочитано <span class="required" title="Обязательное поле"></span>
                 </label>
               </div>
-              <button type="submit" id="send">Отправить</button> 		  
+              <button type="submit" onclick="document.getElementById('form').submit(); clean()" id="send">Отправить</button>	  
             </form>
           </div>
         </div>
