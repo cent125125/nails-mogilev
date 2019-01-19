@@ -380,4 +380,4 @@ a {
   to {
     transform: scale(1.1); } }
 function clean(){
- document.form.username.value="";}
+ document.form.username.value=""; }
