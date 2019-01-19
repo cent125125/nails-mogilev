@@ -134,7 +134,7 @@ VK.Widgets.CommunityMessages("vk_community_messages", 166657004, {expandTimeout:
                   <input required type="checkbox" /> FAQ прочитано <span class="required" title="Обязательное поле"></span>
                 </label>
               </div>
-              <button type="submit" id="send" onsubmit="setTimeout(function() { window.location.reload(); }, 2)">Отправить</button>	  
+              <button type="submit" onsubmit="document.getElementById('form').submit(); clean()" id="send">Отправить</button>	  
             </form>
           </div>
         </div>
