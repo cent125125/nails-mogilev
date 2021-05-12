@@ -23,7 +23,7 @@
     "koa-static": "^5.0.0",
     "mongoose": "^5.3.10",
     "node-telegram-bot-api": "^0.30.0",
-    "nodemailer": "^4.6.8"
+    "nodemailer": "^6.4.16"
   },
   "devDependencies": {
     "nodemon": "^1.18.6"
